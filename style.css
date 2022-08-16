@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: solid 1px black;
+    display: inline-block;
+}
+
+.square:hover{
+    background-color: rgb(75, 135, 202) ;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    content: "\1F409";
+    line-height: 100px;
+    font-size: 45px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    content: "\1F9D9";
+    line-height: 100px;
+    font-size: 45px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
